@@ -23,3 +23,18 @@ Does a contract of a player influence their performance?
 * Does consistant ball dribbling maked better tacklers?
 * Are left-foot players more productive that than right-foot one?
 * Do teams that can afford talented international players win more championships than those that do not?
+
+## Communication Protocols
+
+We are communicating through slack and zoom.
+
+## Machine Learning Model
+
+It has been recommended to use Random Forest smapling as model and we may also use other models to help us answer our questions. To support the model choosen we will Python, Scikit-Learn, and Imbalanced-learn.
+
+##  Database
+
+The Database we will use PostgreSQL, Amazon Web Services (AWS), and Psycopg2
+
+
+
