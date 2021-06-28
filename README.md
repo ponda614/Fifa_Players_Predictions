@@ -62,3 +62,4 @@ Philipp Lahm	Germany			FC Bayern	RB	21	11/1/2002	2018	88	170 cm	66 kg	Right	11/1
 ![image](https://user-images.githubusercontent.com/14955474/123564012-ac85bc80-d785-11eb-843e-3841e3f88a08.png)
 
 ### ✓ Draft machine learning module is connected to the provisional database
+On our individual machines we are looking at using postgresql or sql as database engines. The python or jupyter scripts and pscopg2 to link the scripts to the database.
