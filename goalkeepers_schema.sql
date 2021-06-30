@@ -1,0 +1,35 @@
+DROP TABLE IF EXISTS goal_keepers;
+CREATE TABLE goal_keepers
+(
+    Name varchar(40) NOT NULL, 
+    Age float NOT NULL, 
+    Nationality varchar(40) NOT NULL, 
+    Overall float NOT NULL, 
+    Potential float NOT NULL, 
+    Club varchar(40) NOT NULL, 
+    Value varchar(40) NOT NULL, 
+    Wage varchar(40) NOT NULL, 
+    WorkRate float NOT NULL, 
+    Height varchar(40) NOT NULL, 
+    Weight varchar(40) NOT NULL, 
+    Agility float NOT NULL, 
+    Reactions float NOT NULL, 
+    Balance float NOT NULL, 
+    ShotPower float NOT NULL, 
+    Jumping float NOT NULL, 
+    Stamina float NOT NULL, 
+    Strength float NOT NULL, 
+    LongShots float NOT NULL, 
+    Aggression float NOT NULL, 
+    Interceptions float NOT NULL, 
+    Positioning float NOT NULL, 
+    Vision float NOT NULL, 
+    Penalties float NOT NULL, 
+    Composure float NOT NULL, 
+    GKDiving float NOT NULL, 
+    GKHandling float NOT NULL, 
+    GKKicking float NOT NULL, 
+    GKPositioning float NOT NULL, 
+    GKReflexes float NOT NULL
+--     primary Key (Name)
+);
