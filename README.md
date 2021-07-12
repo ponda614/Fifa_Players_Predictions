@@ -1,65 +1,96 @@
-# Data Science: Final Project <br>
-## Predicting/Projecting Success rate among FIFA football players
-
-## Presentation
-### ✓ Selected topic
-Analyse features of FIFA Elite football players with a view to project and predit a player's success on both leagues and international tournaments. In addition, we will attempts to project and predict the likelyhood of clubs with multiple international players to win consecutive trophies.
-### ✓ Reason why they selected their topic
-The team members are united by an uncommon passion for the game of football. We wanted to appreciate the contribution of international players in national leagues.
-### ✓ Description of their source of data 
-The data that we chose to utilize for this project has been found on Kaggle, a free and public dataset repository. It list the players by country of origin, their physical attributes, their participation and performance within their clubs, etc. We plan on leveraging the data in an attempt to answer, realistically, the questions below.
-### ✓ Questions they hope to answer with
-- do teams that can afford talented international players win more championship than those that don't?
-- are left-foot players more productive that than right-foot one?
-- ?
-- ?
-- 
-## GitHub
-### Main Branch 
-The main branch will house a README.md file.README.md. README.md must include: 
-### ✓ Description of the communication protocols
-The team plans on using Slack, Zoom, smart phones as a means of staying in touch and collaboraing to the phases of this projects.
-Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
-
-## Machine Learning model
-
-
+# Content
+​
+- [Google Slides Content link](https://docs.google.com/presentation/d/1H9v-q7bVhVsung7-6AhsWCUqByEli0z-hiUEGF9v5PQ/edit#slide=id.ge49a181691_0_1)
+​
+- Our topic will be FIFA World Players of 2019
+​
+- We will be working with FIFA_World_players_full_data.csv. The reason why we choose this dataset because it has a lot of features, the dataset contents allows us to apply the transformation mechanisms to a clean format, and we all have a common passion for the game. 
+​
+- The source of data if from Kaggle website, is a public web-based data-science environment. The FIFA_World_players_full_data.csv
+​
+- The question we want to answer are: 
+​
+	- Can team managers predict a player value prior to negotiations?
+	- Does a contract of a player influence their performance?
+	- What stats make a player more relevant to a position?
+	- Are left-foot players more productive that than right-foot one?(possible removal)
+​
+# Communication Protocals 
+​
+- We are communicating through slack, zoom, and google drive.
+​
+# Machine Learning Model
+​
+- It has been recommended to use Random Forest smapling as model and we may also use other models to help us answer our questions. To support the model choosen we will Python, Scikit-Learn, and Imbalanced-learn.
+​
 ## Database
-### ✓ Sample data that mimics the expected final database structure or schema
-
-
-|Name|Nationality|National_Position|National_Kit|Club|Club_Position|Club_Kit|Club_Joining|Contract_Expiry|Rating|Height|Weight|Preffered_Foot|Birth_Date|Age|
-
-Cristiano Ronaldo	Portugal	LS	7	Real Madrid	LW	7	7/1/2009	2021	94	185 cm	80 kg	Right	2/5/1985	36
-Lionel Messi	Argentina	RW	10	FC Barcelona	RW	10	7/1/2004	2018	93	170 cm	72 kg	Left	6/24/1987	33
-Neymar	Brazil	LW	10	FC Barcelona	LW	11	7/1/2013	2021	92	174 cm	68 kg	Right	2/5/1992	29
-Luis Suárez	Uruguay	LS	9	FC Barcelona	ST	9	7/11/2014	2021	92	182 cm	85 kg	Right	1/24/1987	34
-Manuel Neuer	Germany	GK	1	FC Bayern	GK	1	7/1/2011	2021	92	193 cm	92 kg	Right	3/27/1986	35
-De Gea	Spain	GK	1	Manchester Utd	GK	1	7/1/2011	2019	90	193 cm	82 kg	Right	11/7/1990	30
-Robert Lewandowski	Poland	LS	9	FC Bayern	ST	9	7/1/2014	2021	90	185 cm	79 kg	Right	8/21/1988	32
-Gareth Bale	Wales	RS	11	Real Madrid	RW	11	9/2/2013	2022	90	183 cm	74 kg	Left	7/16/1989	31
-Zlatan Ibrahimovi?	Sweden			Manchester Utd	ST	9	7/1/2016	2017	90	195 cm	95 kg	Right	10/3/1981	39
-Thibaut Courtois	Belgium	GK	1	Chelsea	GK	13	7/26/2011	2019	89	199 cm	91 kg	Left	5/11/1992	29
-Jérôme Boateng	Germany	RCB	17	FC Bayern	Sub	17	7/14/2011	2021	89	192 cm	90 kg	Right	9/3/1988	32
-Eden Hazard	Belgium	LF	10	Chelsea	LW	10	7/1/2012	2020	89	173 cm	74 kg	Right	1/7/1991	30
-Luka Modri?	Croatia			Real Madrid	RCM	19	8/1/2012	2020	89	174 cm	65 kg	Right	9/9/1985	35
-Mesut Özil	Germany	CAM	10	Arsenal	CAM	11	9/2/2013	2018	89	180 cm	76 kg	Left	10/15/1988	32
-Gonzalo Higuaín	Argentina	Sub	9	Juventus	ST	9	7/26/2016	2021	89	184 cm	92 kg	Right	12/10/1987	33
-Thiago Silva	Brazil	Sub	14	PSG	LCB	2	7/1/2012	2020	89	183 cm	79 kg	Right	9/22/1984	36
-Sergio Ramos	Spain	LCB	15	Real Madrid	LCB	4	8/1/2005	2020	89	183 cm	75 kg	Right	3/30/1986	35
-Sergio Agüero	Argentina	Sub	7	Manchester City	ST	10	7/28/2011	2020	89	173 cm	70 kg	Right	6/2/1988	33
-Paul Pogba	France			Manchester Utd	LCM	6	8/9/2016	2021	88	191 cm	84 kg	Right	3/15/1993	28
-Antoine Griezmann	France	CAM	7	Atlético Madrid	RS	7	7/29/2014	2021	88	176 cm	67 kg	Left	3/21/1991	30
-Kevin De Bruyne	Belgium	RCM	7	Manchester City	RCM	17	8/30/2015	2021	88	181 cm	68 kg	Right	6/28/1991	29
-Marco Reus	Germany			Bor. Dortmund	LW	11	7/1/2012	2019	88	182 cm	76 kg	Right	5/31/1989	32
-Alexis Sánchez	Chile	LW	7	Arsenal	ST	7	7/10/2014	2018	88	169 cm	62 kg	Right	12/19/1988	32
-Toni Kroos	Germany	LDM	8	Real Madrid	LCM	8	7/17/2014	2022	88	182 cm	78 kg	Right	1/4/1990	31
-Diego Godín	Uruguay	LCB	3	Atlético Madrid	LCB	2	8/1/2010	2019	88	185 cm	73 kg	Right	2/16/1986	35
-Mats Hummels	Germany	LCB	5	FC Bayern	LCB	5	7/1/2016	2021	88	191 cm	92 kg	Right	12/16/1988	32
-Hugo Lloris	France	GK	1	Spurs	GK	1	8/1/2012	2022	88	188 cm	82 kg	Left	12/26/1986	34
-Giorgio Chiellini	Italy	LCB	3	Juventus	LCB	3	7/1/2005	2018	88	187 cm	84 kg	Left	8/14/1984	36
-Philipp Lahm	Germany			FC Bayern	RB	21	11/1/2002	2018	88	170 cm	66 kg	Right	11/11/1983	37
-![image](https://user-images.githubusercontent.com/14955474/123564012-ac85bc80-d785-11eb-843e-3841e3f88a08.png)
-
-### ✓ Draft machine learning module is connected to the provisional database
-On our individual machines we are looking at using postgresql or sql as database engines. The python or jupyter scripts and pscopg2 to link the scripts to the database.
+​
+- The Database we will use PostgreSQL, Amazon Web Services (AWS), and Psycopg2
+​
+## Description of preliminary data preprocessing
+​
+- The libaries we will be importing pandas, regex, matplotlib, and sklearn. With these libraries we will be cleaning the data and get it ready to upload to postgresSQL and AWS databases. 
+​
+## Description of preliminary feature engineering and preliminary feature selection, including the decision-making process.
+​
+- You can compute the standard correlation coefficient between each pair of attributes using the corr() method. Looking at all the correlations between each attribute will take up too much time, so we look at the attribute that correlates with the Rating value. 
+​
+- The correlation coefficient ranges from -1 to 1. When the correlation coefficient is close to 1, it means that there is a strong positive correlation.
+​
+- For the model we used ensemble Random Forest model. The concept of ensemble learning is the process of combining multiple models to help improve the accuracy and robustness, as well as decrease variance of the model, and therefore increase the overall performance of the model.
+​
+## Description of how data was split into training and testing sets?
+​
+- Separating data into training and testing sets is an important part of evaluating data mining models. Typically, when you separate a data set into a training set and testing set, most of the data is used for training, and a smaller portion of the data is used for testing. Analysis Services randomly samples the data to help ensure that the testing and training sets are similar. By using similar data for training and testing, you can minimize the effects of data discrepancies and better understand the characteristics of the model.
+​
+After a model has been processed by using the training set, you test the model by making predictions against the test set. Because the data in the testing set already contains known values for the attribute that you want to predict, it is easy to determine whether the model's guesses are correct.
+​
+## Explanation of model choice, including limitations and benefits?
+​
+#### Impressive in Versatility 
+​
+- Whether you have a regression or classification task, random forest is an applicable model for your needs. It can handle binary features, categorical features, and numerical features. There is very little pre-processing that needs to be done. The data does not need to be rescaled or transformed.
+​
+#### Parallelizable
+​
+- They are parallelizable, meaning that we can split the process to multiple machines to run. This results in faster computation time. Boosted models are sequential in contrast, and would take longer to compute. Side note: Specifically, in Python, to run this in multiple machines, provide the parameter “n_jobs = -1” The -1 is an indication to use all available machines. See scikit-learn documentation for further details.
+ 
+#### Great with High dimensionality
+​
+- Random forests is great with high dimensional data since we are working with subsets of data.
+Quick Prediction/Training Speed It is faster to train than decision trees because we are working only on a subset of features in this model, so we can easily work with hundreds of features. Prediction speed is significantly faster than training speed because we can save generated forests for future uses.
+​
+#### Robust to Outliers and Non-linear Data
+Random forest handles outliers by essentially binning them. It is also indifferent to non-linear features.
+​
+#### Handles Unbalanced Data
+​
+- It has methods for balancing error in class population unbalanced data sets. Random forest tries to minimize the overall error rate, so when we have an unbalance data set, the larger class will get a low error rate while the smaller class will have a larger error rate.
+​
+#### Low Bias, Moderate Variance
+​
+- Each decision tree has a high variance, but low bias. But because we average all the trees in random forest, we are averaging the variance as well so that we have a low bias and moderate variance model.
+​
+#### Drawbacks
+​
+- Model interpretability: Random forest models are not all that interpretable; they are like black boxes.For very large data sets, the size of the trees can take up a lot of memory. It can tend to overfit, so you should tune the hyperparameters.
+​
+# Database stores static data for use during the project?
+​
+- PostgreSQL will used to house the data in raw format. We will create additional tables with full definition of player positions.
+​
+# Database interfaces with the project in some format?
+​
+- We will use psycopg2 library to intergrate with the database. 
+​
+# Includes at least two tables? 
+​
+- Look in notebooks for the tables. 
+​
+# Includes at least one join using the database language?
+​
+- We don't have one join because we do not need to make connection with any other tables.
+​
+# Includes at least one connection string?
+​
+- conn_string = "host="+ creds.pg_rds_endpoint +" port="+ "5432" +" dbname="+ creds.pg_db_name +" user=" 		+ creds.pg_user / +" password="+ creds.pg_pwd
