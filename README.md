@@ -23,7 +23,6 @@ Does a contract of a player influence their performance?
 * What stats make a player more relevant to a position?
 * Are left-foot players more productive that than right-foot one?(possible removal)
 
-
 ## Communication Protocols
 
 We are communicating through slack and zoom and google drive
@@ -43,11 +42,11 @@ The libaries we will be importing pandas, regex, matplotlib, and sklearn. With t
 
 ## Description of preliminary feature engineering and preliminary feature selection, including the decision-making process.
 
-- You can compute the standard correlation coefficient between each pair of attributes using the corr() method. Looking at all the correlations between each attribute will take up too much time, so we look at the attribute that correlates with the Rating value. 
+You can compute the standard correlation coefficient between each pair of attributes using the corr() method. Looking at all the correlations between each attribute will take up too much time, so we look at the attribute that correlates with the Rating value. 
 
-- The correlation coefficient ranges from -1 to 1. When the correlation coefficient is close to 1, it means that there is a strong positive correlation.
+The correlation coefficient ranges from -1 to 1. When the correlation coefficient is close to 1, it means that there is a strong positive correlation.
 
-- For the model we used ensemble Random Forest model. The concept of ensemble learning is the process of combining multiple models to help improve the accuracy and robustness, as well as decrease variance of the model, and therefore increase the overall performance of the model.
+For the model we used ensemble Random Forest model. The concept of ensemble learning is the process of combining multiple models to help improve the accuracy and robustness, as well as decrease variance of the model, and therefore increase the overall performance of the model.
 
 ## Description of how data was split into training and testing sets?
 
