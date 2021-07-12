@@ -1,4 +1,5 @@
 # Data-Science-Final-Project
+- [Google Slides Content link](https://docs.google.com/presentation/d/1H9v-q7bVhVsung7-6AhsWCUqByEli0z-hiUEGF9v5PQ/edit#slide=id.ge49a181691_0_1)
 
 # Project Topic:
 
