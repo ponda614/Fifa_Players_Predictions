@@ -17,16 +17,15 @@ The dataset has a lot of features, the dataset contents allow us to apply the tr
 ## The question we want to answer are:
 
 Does a contract of a player influence their performance?
-* Does longevitity in team make them a better player or not?
-* Does ball controller and being an aggressive make a better player?
-* Does reacters and attacker make a better player?
-* Does consistant ball dribbling maked better tacklers?
-* Are left-foot players more productive that than right-foot one?
-* Do teams that can afford talented international players win more championships than those that do not?
+* Can team managers predict a player value prior to negotiations?
+* Does a contract of a player influence their performance?
+* What stats make a player more relevant to a position?
+* Are left-foot players more productive that than right-foot one?(possible removal)
+
 
 ## Communication Protocols
 
-We are communicating through slack and zoom.
+We are communicating through slack and zoom and google drive
 
 ## Machine Learning Model
 
