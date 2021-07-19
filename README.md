@@ -55,7 +55,7 @@ Predictive model
 Some players with dominant skills were sampled to design a predictive model for a team. 
 Data was split into training/test.
 A linear regression model was initiated to establish relationship.
-Random forest model was used to predict the best possible formation for a team based on the skills set of players.
+Random forest model was used to predict the best possible formation for a team based on the skills set of players.| 
 	
 |**`DATABASE INTEGRATION`**| |
 |--:|--|
