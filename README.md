@@ -20,12 +20,12 @@
 | **`Additional Communication Protocols`**||
 |emails||
 |mobiles||
-| **`DATABASE`** | | | | | |
+| **`DATABASE`** | | | | | | 
 |--|--|--|--|--|--|
 |**`local database:`**|PostgreSQL|**`cloud database:`**|AWS RDS|**`Protocol:`**|Psycopg2|
 |**`storage`**|AWS S3||||||
 
-| **`Machine Learning Model`**| |It has been recommended to use Random Forest smapling as model for this project.</br>To support the model chosen we will Python, Scikit-Learn, and Imbalanced-learn.||
+| **`Machine Learning Model`**| |It has been recommended to use Random Forest smapling as model for this project.</br>To support the model chosen we will Python, Scikit-Learn, and Imbalanced-learn.|| 
 |--|--:|--|--|
 |  | | **`Preliminary data preprocessing`**| |
 | |**`Pandas`**|<li> extract data from data base </li><li>remove undesirables data</li><li>encode text column content</li><li>regex</li>|
