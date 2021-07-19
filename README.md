@@ -12,7 +12,7 @@
 | |images|  Alex Vargas|AlexBranch|https://github.com/ponda614/Fifa_Players_Predictions/tree/AlexBranch|
 | |  |Richard Dépestre|richardbranch|https://github.com/ponda614/Fifa_Players_Predictions/tree/richardbranch|
 	
-| **`Communication Protocols`**  | | 
+| **`Communication Protocols`**  | |
 |--:|:--|
 |  slack|will be used for team meetings, code reviews, collaborative coding |
 |zoom|will be used to facilite all face to face meetings, collaborative tasks|
@@ -25,7 +25,7 @@
 |**`local database:`**|PostgreSQL|**`cloud database:`**|AWS RDS|**`Protocol:`**|Psycopg2|
 |**`storage`**|AWS S3||||||
 
-| **`Machine Learning Model`**| |It has been recommended to use Random Forest smapling as model for this project.</br>To support the model chosen we will Python, Scikit-Learn, and Imbalanced-learn.|| 
+| **`Machine Learning Model`**| |It has been recommended to use Random Forest smapling as model for this project.</br>To support the model chosen we will Python, Scikit-Learn, and Imbalanced-learn.||
 |--|--:|--|--|
 |  | | **`Preliminary data preprocessing`**| |
 | |**`Pandas`**|<li> extract data from data base </li><li>remove undesirables data</li><li>encode text column content</li><li>regex</li>|
@@ -40,8 +40,23 @@
 || **`limitations`** |Model interpretability: Random forest models are not all that interpretable; they are like black boxes.</br>For very large data sets, the size of the trees can take up a lot of memory. It can tend to overfit, so you should tune the hyperparameters.|
 |**ANALYSIS**||
 |--:|--|
-| |
-|	
+| |**`Analysis Of Data`**|Defenders are the 3-4 back players who are skilled at standing tackle, marking interceptions, ball control.
+Midfielders are the connecting strings of the team with the primary objective of distributing passes to trigger attack on the opponent. They must be excellent at ball control, dribbling and short passes that can start attacks. 
+Depending on the team strategy can be only one or 2 players primary role of creating goal scoring opportunities.  An attacker must be an accomplished penalty shooter, great dribbling, ball control and finishing are some the key skills. 
+
+Correlation of skills with field position.
+There are about 34 different skills sets that each player is rated on by field positions. We considered the most impactful skills on each field position by considering the correlation coefficients and the variability of the p-value < 0.05.
+From the correlation matrix, there are both direct and inverse correlation of skills with overall impact on field position. Significantly impactful skill implied all dependent variables with p-value < 0.05. For example, some impactful skills for some field positions are:
+*Penalty shooting, dribbling, ball control and finishing are impactful on a sticker position.
+*Some impactful skills for midfielders are dribbling, ball control, short passing and penalty kicks.
+*Defenders must be skilled in standing tackle, marking interceptions, ball control, aggression.
+
+Predictive model
+Some players with dominant skills were sampled to design a predictive model for a team. 
+Data was split into training/test.
+A linear regression model was initiated to establish relationship.
+Random forest model was used to predict the best possible formation for a team based on the skills set of players.| 
+	
 |**`DATABASE INTEGRATION`**| |
 |--:|--|
 | | PostgreSQL will used to house the data in raw format.</br>We will create additional tables with full definition of player positions.|
