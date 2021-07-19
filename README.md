@@ -20,7 +20,7 @@
 | **`Additional Communication Protocols`**||
 |emails||
 |mobiles||
-| **`DATABASE`** | | | | | | 
+| **`DATABASE`** | | | | | |
 |--|--|--|--|--|--|
 |**`local database:`**|PostgreSQL|**`cloud database:`**|AWS RDS|**`Protocol:`**|Psycopg2|
 |**`storage`**|AWS S3||||||
