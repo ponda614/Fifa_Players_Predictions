@@ -20,4 +20,20 @@
 | **`Additional Communication Protocols`**||
 |emails||
 |mobiles||
+| **`DATABASE`** | | | | | |
+|--|--|--|--|--|--|
+|**`local database:`**|PostgreSQL|**`cloud database:`**|AWS RDS|**`Protocol:`**|Psycopg2|
+|**`storage`**|AWS S3||||||
+
+| **`Machine Learning Model`**| |It has been recommended to use Random Forest smapling as model for this project.</br>To support the model chosen we will Python, Scikit-Learn, and Imbalanced-learn.||
+|--|--:|--|--|
+|  | | **`Preliminary data preprocessing`**| |
+| |**`Pandas`**|<li> extract data from data base </li><li>remove undesirables data</li><li>encode text column content</li><li>regex</li>|
+||**`Matplotlib`**|visualize data and make correction|
+|||The libaries we will be importing pandas, regex, matplotlib, and sklearn. With these libraries we will be cleaning the data </br>and get it ready to upload to postgresSQL and AWS databases. |
+|**`feature engineering`**| | | |
+|**`feature selection`**| | You can compute the standard correlation coefficient between each pair of attributes using the corr() method.</br>Looking at all the correlations between each attribute will take up too much time, so we look at the attribute that correlates with the Rating value.</br>The correlation coefficient ranges from -1 to 1. When the correlation coefficient is close to 1, it means that there is a strong positive correlation.| |
+|**`Decision-making process`**| | | |
+|**`training and testing sets`**||Separating data into training and testing sets is an important part of evaluating data mining models.</br>Typically, when you separate a data set into a training set and testing set, most of the data is used for training,</br>and a smaller portion of the data is used for testing.</br>Analysis Services randomly samples the data to help ensure that the testing and training sets are similar.</br>By using similar data for training and testing, you can minimize the effects of data discrepancies </br>and better understand the characteristics of the model.</br>After a model has been processed by using the training set, you test the model by making predictions against the test set.</br>Because the data in the testing set already contains known values for the attribute that you want to predict,</br>it is easy to determine whether the model's guesses are correct.||
+|**`model choice`**||For the model we used ensemble Random Forest model. The concept of ensemble learning is the process of </br>combining multiple models to help improve the accuracy and robustness, as well as decrease variance of the model,</br> and therefore increase the overall performance of the model.|
 
