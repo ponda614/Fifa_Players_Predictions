@@ -12,7 +12,7 @@
 | |images|  Alex Vargas|AlexBranch|https://github.com/ponda614/Fifa_Players_Predictions/tree/AlexBranch|
 | |  |Richard Dépestre|richardbranch|https://github.com/ponda614/Fifa_Players_Predictions/tree/richardbranch|
 	
-| **`Communication Protocols`**  | |
+| **`Communication Protocols`**  | | 
 |--:|:--|
 |  slack|will be used for team meetings, code reviews, collaborative coding |
 |zoom|will be used to facilite all face to face meetings, collaborative tasks|
