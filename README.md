@@ -74,11 +74,16 @@ This value tells us how much percentage variation in the rating can be explained
 For the CB position, the following skill sets were deemed to have Significant impact on the rating based on the correlation and the p-value. They are standing_tackle, marking, interceptions, heading_accuracy , sliding_tackle, short_passing, reactions, ball_control dribbling, long_passing, and composure
 
 
-Predictive model
-Some players with dominant skills were sampled to design a predictive model for a team. 
-Data was split into training/test.
-A linear regression model was initiated to establish relationship.
-Random forest model was used to predict the best possible formation for a team based on the skills set of players.| 
+Machine Learning model
+Further learning models were employed to provide additional imput in the data. The results are very compared to determine the best fit model which also produced the most accurate prediction.  Random Forest model produced the best accuracy of 96%. 
+
+players with dominant skills were sampled to design a predictive model for team formation
+Field formation data was created as a dependent variable for further machine learning process. 
+
+Data was split into training and test group.
+
+Random forest model was used to predict the best possible formation for a team based on the skills set of players.
+
 	
 |**`DATABASE INTEGRATION`**| |
 |--:|--|
