@@ -63,12 +63,15 @@ m = gradient(slope)
 x = independent variable, example is Heading accuracy
 c = the intercept (const) of 21.2803 explains the average value of omitted variables and noise present in model. 
 The coefficients 0f 0.0867 for heading accuracy and -0.0249 for long passing tells the change in rating for a unit change in those respective skill set, heading accuracy and long passing
+
+The p-values for the coefficients suggest whether the relationships are statistically significant. A p-value of < 0.05 is considered significant for the model. 
+
 R – squared value: 0.842
 This value tells us how much percentage variation in the rating can be explained by the independent variables. Hence 84.2 % variation in rating can be explained by the skills set X. 
 
 ![significant](https://user-images.githubusercontent.com/75961117/126375796-ce3c6a47-3a9a-482e-9283-db82b11964e4.PNG)
 
-For the CB position, the following skill sets were deemed to have Significant impact on the rating. They are standing_tackle, marking, interceptions, heading_accuracy , sliding_tackle, short_passing, reactions, ball_control dribbling, long_passing, and composure
+For the CB position, the following skill sets were deemed to have Significant impact on the rating based on the correlation and the p-value. They are standing_tackle, marking, interceptions, heading_accuracy , sliding_tackle, short_passing, reactions, ball_control dribbling, long_passing, and composure
 
 
 Predictive model
