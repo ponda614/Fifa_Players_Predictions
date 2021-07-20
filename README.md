@@ -86,7 +86,7 @@ Random forest model was used to predict the best possible formation for a team b
 
 ![Field formation](https://user-images.githubusercontent.com/75961117/126405653-91b76fd4-4de5-426b-92a2-ecac42175a7f.PNG)
 
-
+The model can predict the appropriate team formation based on the skills of players for the various field positions
 	
 |**`DATABASE INTEGRATION`**| |
 |--:|--|
