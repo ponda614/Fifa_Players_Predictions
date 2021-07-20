@@ -84,6 +84,9 @@ Data was split into training and test group.
 
 Random forest model was used to predict the best possible formation for a team based on the skills set of players.
 
+![Field formation](https://user-images.githubusercontent.com/75961117/126405653-91b76fd4-4de5-426b-92a2-ecac42175a7f.PNG)
+
+
 	
 |**`DATABASE INTEGRATION`**| |
 |--:|--|
