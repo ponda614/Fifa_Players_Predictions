@@ -51,6 +51,20 @@ From the correlation matrix, there are both direct and inverse correlation of sk
 *Some impactful skills for midfielders are dribbling, ball control, short passing and penalty kicks.
 *Defenders must be skilled in standing tackle, marking interceptions, ball control, aggression.
 
+Linear Regresion model
+
+Using a Center Back position as an example from the sample regression model below, we summarized the relationship by this equation
+ y = mx + c
+where, y = “rating”, the response(dependent) variable
+m = gradient(slope)
+x = independent variable, example is Heading accuracy
+c = the intercept (const) of 21.2803 explains the average value of omitted variables and noise present in model. 
+The coefficients 0f 0.0867 for heading accuracy and -0.0249 for long passing tells the change in rating for a unit change in those respective skill set, heading accuracy and long passing
+R – squared value: 0.842
+This value tells us how much percentage variation in the rating can be explained by the independent variables. Hence 84.2 % variation in rating can be explained by the skills set X. 
+For the CB position, the following skill sets were deemed to have Significant impact on the rating. They are standing_tackle, marking, interceptions, heading_accuracy , sliding_tackle, short_passing, reactions, ball_control dribbling, long_passing, and composure
+
+
 Predictive model
 Some players with dominant skills were sampled to design a predictive model for a team. 
 Data was split into training/test.
