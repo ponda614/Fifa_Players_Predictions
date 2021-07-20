@@ -53,6 +53,9 @@ From the correlation matrix, there are both direct and inverse correlation of sk
 
 Linear Regresion model
 
+![METRIX](https://user-images.githubusercontent.com/75961117/126375514-3f256ef0-0194-41d1-9495-3d2c01159dd9.PNG)
+
+
 Using a Center Back position as an example from the sample regression model below, we summarized the relationship by this equation
  y = mx + c
 where, y = “rating”, the response(dependent) variable
